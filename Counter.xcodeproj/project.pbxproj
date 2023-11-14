@@ -13,6 +13,7 @@
 		1C9E5FC32B022C1F00C1900D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E5FC12B022C1F00C1900D /* Main.storyboard */; };
 		1C9E5FC52B022C2000C1900D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E5FC42B022C2000C1900D /* Assets.xcassets */; };
 		1C9E5FC82B022C2000C1900D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E5FC62B022C2000C1900D /* LaunchScreen.storyboard */; };
+		1CCD76882B03705D00B66DB9 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD76872B03705D00B66DB9 /* UITextView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1C9E5FC42B022C2000C1900D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9E5FC72B022C2000C1900D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9E5FC92B022C2000C1900D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCD76872B03705D00B66DB9 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1C9E5FBA2B022C1F00C1900D /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				1CCD76862B03703F00B66DB9 /* Extensions */,
 				1C9E5FBB2B022C1F00C1900D /* AppDelegate.swift */,
 				1C9E5FBD2B022C1F00C1900D /* SceneDelegate.swift */,
 				1C9E5FBF2B022C1F00C1900D /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				1C9E5FC92B022C2000C1900D /* Info.plist */,
 			);
 			path = Counter;
+			sourceTree = "<group>";
+		};
+		1CCD76862B03703F00B66DB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CCD76872B03705D00B66DB9 /* UITextView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				1C9E5FC02B022C1F00C1900D /* ViewController.swift in Sources */,
 				1C9E5FBC2B022C1F00C1900D /* AppDelegate.swift in Sources */,
 				1C9E5FBE2B022C1F00C1900D /* SceneDelegate.swift in Sources */,
+				1CCD76882B03705D00B66DB9 /* UITextView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
