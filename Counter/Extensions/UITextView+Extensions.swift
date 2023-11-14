@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
+extension UITextView {
+    func scrollToBottom() {
+        guard text.count > 0 else { return }
+        let location = text.count - 1
+        let bottom = NSMakeRange(location, 1)
+        scrollRangeToVisible(bottom)
+    }
+}
